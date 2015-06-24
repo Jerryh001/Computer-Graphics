@@ -16,8 +16,10 @@ float m_sp[4] = { 0.5, 0.5, 0.6, 1 };
 float m_sh = 1;
 float m_amb[4] = { 0.1, 0.1, 0.1, 1 };
 float m_dif[4] = { 1, 1, 1, 1 };
+int time = glutGet(GLUT_ELAPSED_TIME);
 void drawframe()
 {
+	glShadeModel(GL_SMOOTH);
 	glDisable(GL_LIGHTING);
 	glDisable(GL_LIGHT0);
 	glLineWidth(2);
@@ -153,9 +155,11 @@ void draw()
 }
 void idle()
 {
-	r += 0.01*(1+tp*5);
+	int timenow = glutGet(GLUT_ELAPSED_TIME);
+	r += (timenow-time)/10.0;
 	glutPostRedisplay();
 	if (r > 360) r -= 360;
+	time = timenow;
 }
 void viewchange(int choose)
 {

@@ -1,7 +1,4 @@
-#ifndef _iostream_
-#define _iostream_
 #include <iostream>
-#endif
 using namespace std;
 class vector3D
 {
