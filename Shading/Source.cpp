@@ -2,6 +2,8 @@
 #include <fstream>
 #include <GL/glut.h>
 #include "vector.h"
+float dis(float);
+void mapcreate();
 using namespace std;
 float r = 0;
 int tp = 0;
@@ -168,6 +170,7 @@ void viewchange(int choose)
 }
 void init()
 {
+	mapcreate();
 	glutInitDisplayMode(GLUT_DOUBLE | GLUT_DEPTH);
 	glutInitWindowSize(600, 600);
 	glutCreateWindow("Shading");

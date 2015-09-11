@@ -10,7 +10,7 @@ float dis(float x)
     float pi=2;
     return 20/(pi*sqrt(6.28))*exp(-pow((x-mu),2)/(2*pi*pi));
 }
-int main()
+void mapcreate()
 {
     ofstream cout("map.txt");
     for(int i=0;i<20;i++)

@@ -81,6 +81,7 @@
     <ClInclude Include="vector.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="mapcreate.cpp" />
     <ClCompile Include="Source.cpp" />
   </ItemGroup>
   <ItemGroup>

@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "openchan", "openchan\openchan.vcxproj", "{5D28134E-58AB-4B25-B5E9-D26D6E97BF61}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Projection", "Projection\Projection.vcxproj", "{39B7972E-638C-4CCC-8A02-D018B48CBCCC}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Shading", "Shading\Shading.vcxproj", "{EE0D4423-FF18-46A8-B881-24A6365B9E0C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5D28134E-58AB-4B25-B5E9-D26D6E97BF61}.Debug|x86.ActiveCfg = Debug|Win32
+		{5D28134E-58AB-4B25-B5E9-D26D6E97BF61}.Debug|x86.Build.0 = Debug|Win32
+		{5D28134E-58AB-4B25-B5E9-D26D6E97BF61}.Release|x86.ActiveCfg = Debug|Win32
+		{5D28134E-58AB-4B25-B5E9-D26D6E97BF61}.Release|x86.Build.0 = Debug|Win32
+		{39B7972E-638C-4CCC-8A02-D018B48CBCCC}.Debug|x86.ActiveCfg = Debug|Win32
+		{39B7972E-638C-4CCC-8A02-D018B48CBCCC}.Debug|x86.Build.0 = Debug|Win32
+		{39B7972E-638C-4CCC-8A02-D018B48CBCCC}.Release|x86.ActiveCfg = Debug|Win32
+		{39B7972E-638C-4CCC-8A02-D018B48CBCCC}.Release|x86.Build.0 = Debug|Win32
+		{EE0D4423-FF18-46A8-B881-24A6365B9E0C}.Debug|x86.ActiveCfg = Debug|Win32
+		{EE0D4423-FF18-46A8-B881-24A6365B9E0C}.Debug|x86.Build.0 = Debug|Win32
+		{EE0D4423-FF18-46A8-B881-24A6365B9E0C}.Release|x86.ActiveCfg = Debug|Win32
+		{EE0D4423-FF18-46A8-B881-24A6365B9E0C}.Release|x86.Build.0 = Debug|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

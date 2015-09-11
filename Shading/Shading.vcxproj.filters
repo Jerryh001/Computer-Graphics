@@ -23,6 +23,9 @@
     <ClCompile Include="Source.cpp">
       <Filter>原始程式檔</Filter>
     </ClCompile>
+    <ClCompile Include="mapcreate.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="map.txt">
