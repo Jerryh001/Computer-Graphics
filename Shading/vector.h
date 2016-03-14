@@ -43,6 +43,10 @@ public:
 	{
 		return cin >> v.x >> v.y >> v.z;
 	}
+	friend ostream& operator <<(ostream& cin, vector3D& v)
+	{
+		return cout << "(" << v.x << "," << v.y << "," << v.z << ")";
+	}
 	friend vector3D operator /(vector3D v, const float &a)
 	{
 		v.x /= a;
